@@ -1,0 +1,40 @@
+"a" = (/turf/simulated/wall/mineral/wood,/area/awaymission)
+"b" = (/turf/simulated/floor/wood,/area/awaymission)
+"c" = (/obj/structure/table/wood,/obj/item/arrow,/obj/item/arrow,/turf/simulated/floor/wood,/area/awaymission)
+"d" = (/turf/simulated/floor/wood{tag = "icon-wood-broken7"; icon_state = "wood-broken7"},/area/awaymission)
+"e" = (/turf/simulated/floor/wood{tag = "icon-wood-broken5"; icon_state = "wood-broken5"},/area/awaymission)
+"f" = (/turf/simulated/floor/wood{tag = "icon-wood-broken"; icon_state = "wood-broken"},/area/awaymission)
+"g" = (/obj/structure/table/wood,/turf/simulated/floor/wood,/area/awaymission)
+"h" = (/turf/simulated/floor/wood{tag = "icon-wood-broken3"; icon_state = "wood-broken3"},/area/awaymission)
+"i" = (/obj/structure/mineral_door/wood,/turf/simulated/floor/wood,/area/awaymission)
+"j" = (/obj/item/ore/plasma,/turf/simulated/floor/wood,/area/awaymission)
+"k" = (/obj/item/crowbar,/obj/item/ore/gold,/obj/item/ore/plasma,/turf/simulated/floor/wood,/area/awaymission)
+"l" = (/obj/item/ore/iron,/obj/item/ore/iron,/obj/item/ore/iron,/obj/item/ore/gold,/obj/item/ore/gold,/turf/simulated/floor/wood,/area/awaymission)
+"m" = (/obj/item/ore/iron,/obj/item/ore/iron,/obj/item/ore/iron,/turf/simulated/floor/wood,/area/awaymission)
+"n" = (/obj/item/harpoon,/turf/simulated/floor/wood,/area/awaymission)
+"o" = (/obj/item/ore/slag,/obj/item/ore/slag,/turf/simulated/floor/wood,/area/awaymission)
+"p" = (/obj/item/ore/gold,/turf/simulated/floor/wood{tag = "icon-wood-broken7"; icon_state = "wood-broken7"},/area/awaymission)
+"q" = (/obj/item/ore/iron,/obj/item/ore/gold,/turf/simulated/floor/wood,/area/awaymission)
+"r" = (/obj/item/ore/iron,/turf/simulated/floor/wood,/area/awaymission)
+"s" = (/obj/item/cultivator,/turf/simulated/floor/wood,/area/awaymission)
+"t" = (/obj/structure/table/wood,/obj/item/melee/icepick,/turf/simulated/floor/wood,/area/awaymission)
+"u" = (/obj/structure/table/wood,/obj/item/oar,/turf/simulated/floor/wood,/area/awaymission)
+"v" = (/obj/structure/table/wood,/obj/item/melee/baseball_bat,/turf/simulated/floor/wood,/area/awaymission)
+"w" = (/obj/structure/table/wood,/obj/item/hatchet/unathiknife,/turf/simulated/floor/wood,/area/awaymission)
+"x" = (/obj/structure/table/wood,/obj/item/hatchet,/turf/simulated/floor/wood,/area/awaymission)
+"y" = (/obj/item/hatchet,/turf/simulated/floor/wood,/area/awaymission)
+"z" = (/obj/structure/stool/bed/dogbed,/turf/simulated/floor/wood,/area/awaymission)
+"A" = (/obj/item/pickaxe,/obj/item/pickaxe,/turf/simulated/floor/wood,/area/awaymission)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+ajklmzcccAAnnza
+aopqrbbbbbbbeba
+asbbbbbbbfbbbba
+atbbbbugvbbbbwa
+agbbbbuggbbbbxa
+abbbhbbbbbbbbza
+azbbbbbbbbbdbba
+azfbbbbbbbbbbya
+aaaaaaiiiaaaaaa
+"}

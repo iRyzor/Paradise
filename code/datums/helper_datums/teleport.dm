@@ -174,12 +174,13 @@
 /datum/teleport/instant/science/setPrecision(aprecision)
 	..()
 	if(!is_admin_level(destination.z))
-		if(istype(teleatom, /obj/item/storage/backpack/holding))
+		if(istype(teleatom, /obj/item/storage/backpack/holding) || istype(teleatom, /obj/item/storage/backpack/duffel/holding))
 			precision = rand(1, 100)
 
 		var/list/bagholding = teleatom.search_contents_for(/obj/item/storage/backpack/holding)
-		if(bagholding.len)
-			precision = max(rand(1, 100)*bagholding.len, 100)
+		var/list/duffelholding = teleatom.search_contents_for(/obj/item/storage/backpack/duffel/holding)
+		if(bagholding.len || duffelholding.len)
+			precision = max(rand(1, 100)*(bagholding.len | duffelholding.len), 100)
 			if(istype(teleatom, /mob/living))
 				var/mob/living/MM = teleatom
 				to_chat(MM, "<span class='warning'>The bluespace interface on your bag of holding interferes with the teleport!</span>")

@@ -56,7 +56,7 @@
 	max_combined_w_class = 35
 	burn_state = FIRE_PROOF
 	flags_2 = NO_MAT_REDEMPTION_2
-	cant_hold = list(/obj/item/storage/backpack/holding)
+	cant_hold = list(/obj/item/storage/backpack/holding, /obj/item/storage/backpack/duffel/holding)
 
 /obj/item/storage/backpack/holding/New()
 	..()

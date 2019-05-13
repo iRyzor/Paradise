@@ -268,7 +268,7 @@
 		return 0
 
 	if(W.w_class >= src.w_class && (istype(W, /obj/item/storage)))
-		if(!istype(src, /obj/item/storage/backpack/holding))	//bohs should be able to hold backpacks again. The override for putting a boh in a boh is in backpack.dm.
+		if(!istype(src, /obj/item/storage/backpack/holding) || !istype(src, /obj/item/storage/backpack/duffel/holding))	//bohs should be able to hold backpacks again. The override for putting a boh in a boh is in backpack.dm.
 			if(!stop_messages)
 				to_chat(usr, "<span class='notice'>[src] cannot hold [W] as it's a storage item of the same size.</span>")
 			return 0 //To prevent the stacking of same sized storage items.
@@ -435,6 +435,9 @@
 
 /obj/item/storage/New()
 	..()
+
+	icon = (hispania_icon ? 'icons/hispania/obj/storage.dmi' : icon)
+
 	can_hold = typecacheof(can_hold)
 	cant_hold = typecacheof(cant_hold)
 

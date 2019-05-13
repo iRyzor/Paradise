@@ -1,7 +1,7 @@
 
 /obj/item/storage/backpack/duffel/holding
 	name = "Duffelbag of Holding"
-	desc = "A backpack that opens into a localized pocket of Blue Space."
+	desc = "A large duffelbag that opens into a localized pocket of Blue Space."
 	origin_tech = "bluespace=5;materials=4;engineering=4;plasmatech=5"
 	icon_state = "duffel-holding"
 	item_state = "duffel-holding"

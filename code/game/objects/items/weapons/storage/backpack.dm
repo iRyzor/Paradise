@@ -22,6 +22,13 @@
 		"Vox" = 'icons/mob/species/vox/back.dmi'
 		)
 
+
+/obj/item/storage/backpack/New()
+	..()
+	lefthand_file = (hispania_icon ? 'icons/hispania/mob/inhands/clothing_lefthand.dmi' : lefthand_file)
+	righthand_file = (hispania_icon ? 'icons/hispania/mob/inhands/clothing_righthand.dmi' : righthand_file)
+	return
+
 /obj/item/storage/backpack/attackby(obj/item/W as obj, mob/user as mob, params)
 	playsound(src.loc, "rustle", 50, 1, -5)
 	return ..()

@@ -13,6 +13,9 @@
 	var/obj/item/gun/energy/chrono_gun/PA = null
 	var/list/erased_minds = list() //a collection of minds from the dead
 
+/obj/item/chrono_eraser/New()
+	icon = (hispania_icon ? 'icons/hispania/obj/nto.dmi' : icon)
+
 /obj/item/chrono_eraser/proc/pass_mind(var/datum/mind/M)
 	erased_minds += M
 
@@ -57,6 +60,8 @@
 
 /obj/item/gun/energy/chrono_gun/New(var/obj/item/chrono_eraser/T)
 	. = ..()
+	icon = (hispania_icon ? 'icons/hispania/obj/guns/energy.dmi' : icon)
+
 	if(istype(T))
 		TED = T
 	else //admin must have spawned it

@@ -19,6 +19,10 @@
 	var/charge_tick = 0
 	var/charge_delay = 4
 
+/obj/item/gun/New()
+	..()
+	icon = (hispania_icon ? 'icons/hispania/obj/guns/energy.dmi' : icon)
+
 /obj/item/gun/energy/emp_act(severity)
 	power_supply.use(round(power_supply.charge / severity))
 	if(chambered)//phil235
